@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Word injector",
+  "name": "Word replacer",
   "description": "A little extension for word replacing",
   "version": "0.1",
   "icons": {
@@ -8,9 +8,9 @@
     "48": "assets/logo48.png",
     "128": "assets/logo128.png"
   },
-  "options_page": "options.html",
+  "options_page": "options/index.html",
   "browser_action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup/index.html"
   },
   "content_scripts": [
     {
@@ -28,7 +28,8 @@
     ],
     "persistent": false
   },
-  "web_accessible_resources": [],
+  "web_accessible_resources": [
+  ],
   "permissions": [
     "activeTab",
     "declarativeContent",
