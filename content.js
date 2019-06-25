@@ -13,6 +13,11 @@
     if (!word || !state) {
       return;
     }
-    injector.injectWord(document.body, word);
+    const wordsCount = injector.injectWord(document.body, word);
+    
+    chrome.runtime.sendMessage({
+      message: 'show-badge',
+      data: {count: wordsCount},
+    });
   })
 })();
