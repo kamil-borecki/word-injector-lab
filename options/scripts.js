@@ -9,7 +9,6 @@
   function init() {
     const form = $('#form').first();
     wordInput = $('#word-input').first();
-    stateInput = $('#state-input').first();
 
     form.on('submit', e => {
       e.preventDefault();
