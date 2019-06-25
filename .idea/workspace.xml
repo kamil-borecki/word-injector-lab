@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="881436c4-14e4-4a5e-b313-ead0f2a43111" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/background.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/content.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,7 +30,7 @@
         <counts>
           <entry key="css" value="22" />
           <entry key="html" value="17" />
-          <entry key="js" value="36" />
+          <entry key="js" value="37" />
           <entry key="json" value="7" />
           <entry key="php" value="1" />
           <entry key="scss" value="4" />
@@ -42,7 +42,7 @@
           <entry key="CSS" value="22" />
           <entry key="HTML" value="17" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="36" />
+          <entry key="JavaScript" value="37" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="4" />
           <entry key="TypeScript" value="1" />
@@ -52,7 +52,7 @@
         <counts>
           <entry key="css" value="1976" />
           <entry key="html" value="605" />
-          <entry key="js" value="4834" />
+          <entry key="js" value="4849" />
           <entry key="json" value="135" />
           <entry key="scss" value="12" />
         </counts>
@@ -62,13 +62,13 @@
           <entry key="CSS" value="1976" />
           <entry key="HTML" value="605" />
           <entry key="JSON" value="135" />
-          <entry key="JavaScript" value="4834" />
+          <entry key="JavaScript" value="4849" />
           <entry key="SCSS" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.create.new" value="6" />
+          <entry key="git.branch.create.new" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -76,10 +76,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/background.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="5" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="4" selection-end-line="11" />
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -98,15 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -178,7 +178,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="step5" />
+        <entry key="$PROJECT_DIR$" value="step6" />
       </map>
     </option>
   </component>
@@ -196,10 +196,10 @@
         <option value="$PROJECT_DIR$/options/index.html" />
         <option value="$PROJECT_DIR$/options/scripts.js" />
         <option value="$PROJECT_DIR$/popup/scripts.js" />
-        <option value="$PROJECT_DIR$/background.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/lib/injector.js" />
         <option value="$PROJECT_DIR$/content.js" />
+        <option value="$PROJECT_DIR$/background.js" />
       </list>
     </option>
   </component>
@@ -299,13 +299,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44863000" />
+    <option name="totallyTimeSpent" value="45702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1716693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,7 +317,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32928064" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32928064" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Regex Tester" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -364,13 +364,6 @@
     <entry file="file://$PROJECT_DIR$/options/script.js" />
     <entry file="file://$PROJECT_DIR$/popup.html" />
     <entry file="file://$PROJECT_DIR$/options.html" />
-    <entry file="file://$PROJECT_DIR$/background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -437,7 +430,14 @@
     <entry file="file://$PROJECT_DIR$/content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="4" selection-end-line="11" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-end-line="42" />
         </state>
       </provider>
     </entry>
