@@ -1,6 +1,8 @@
 (() => {
 
   let wordInput;
+  let overlay;
+
   $(document).ready(() => {
     init();
   });
@@ -16,6 +18,7 @@
     });
 
     getWordFromStorage();
+    getStateFromStorage();
 
 
     form.on('submit', e => {
@@ -35,6 +38,9 @@
           case 'new-word':
             getWordFromStorage();
             break;
+          case 'new-state':
+            getStateFromStorage();
+            break;
         }
       })
   }
@@ -42,6 +48,16 @@
   function getWordFromStorage() {
     chrome.storage.sync.get(({word}) => {
       wordInput.val(word || '');
+    });
+  }
+
+  function getStateFromStorage() {
+    chrome.storage.sync.get(({state}) => {
+      if (state) {
+        overlay.hide();
+      } else {
+        overlay.show();
+      }
     });
   }
 

@@ -54,7 +54,7 @@
         <counts>
           <entry key="css" value="1976" />
           <entry key="html" value="605" />
-          <entry key="js" value="4527" />
+          <entry key="js" value="4602" />
           <entry key="json" value="116" />
           <entry key="scss" value="12" />
         </counts>
@@ -64,24 +64,24 @@
           <entry key="CSS" value="1976" />
           <entry key="HTML" value="605" />
           <entry key="JSON" value="116" />
-          <entry key="JavaScript" value="4527" />
+          <entry key="JavaScript" value="4602" />
           <entry key="SCSS" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.create.new" value="3" />
+          <entry key="git.branch.create.new" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/background.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -140,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/options/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" selection-end-line="45" />
+            <state relative-caret-position="460">
+              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -161,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/popup/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="45" column="3" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="45" selection-end-column="3" />
+            <state relative-caret-position="345">
+              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -180,7 +180,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="step2" />
+        <entry key="$PROJECT_DIR$" value="step3" />
       </map>
     </option>
   </component>
@@ -198,9 +198,9 @@
         <option value="$PROJECT_DIR$/content.js" />
         <option value="$PROJECT_DIR$/popup/index.html" />
         <option value="$PROJECT_DIR$/options/index.html" />
-        <option value="$PROJECT_DIR$/background.js" />
-        <option value="$PROJECT_DIR$/popup/scripts.js" />
         <option value="$PROJECT_DIR$/options/scripts.js" />
+        <option value="$PROJECT_DIR$/popup/scripts.js" />
+        <option value="$PROJECT_DIR$/background.js" />
       </list>
     </option>
   </component>
@@ -290,12 +290,12 @@
       <workItem from="1558446890963" duration="1235000" />
       <workItem from="1559218132045" duration="218000" />
       <workItem from="1560326980600" duration="16992000" />
-      <workItem from="1561452338587" duration="2652000" />
+      <workItem from="1561452338587" duration="3821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41413000" />
+    <option name="totallyTimeSpent" value="42582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -409,24 +409,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/background.js">
+    <entry file="file://$PROJECT_DIR$/options/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="460">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/popup/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="45" column="3" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="45" selection-end-column="3" />
+        <state relative-caret-position="345">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/options/scripts.js">
+    <entry file="file://$PROJECT_DIR$/background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-end-line="45" />
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
