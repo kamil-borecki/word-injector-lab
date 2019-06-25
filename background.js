@@ -9,12 +9,12 @@
 
   chrome.runtime.onMessage.addListener(
     (request) => {
-      const {message} = request;
+      const {message, data} = request;
 
       switch (message) {
 
         case 'word-changed':
-          const {word} = request.data;
+          const {word} = data;
           chrome.storage.sync.set({word}, () => {
             reload();
             chrome.runtime.sendMessage({
@@ -24,7 +24,7 @@
           });
           break;
         case 'state-changed':
-          const {state} = request.data;
+          const {state} = data;
           chrome.storage.sync.set({state}, () => {
             reload();
             chrome.runtime.sendMessage({
