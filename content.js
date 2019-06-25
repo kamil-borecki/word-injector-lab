@@ -13,6 +13,6 @@
     if (!word || !state) {
       return;
     }
-    injector.injectWord(document.body, word)
+    injector.injectWord(document.body, word);
   })
 })();
