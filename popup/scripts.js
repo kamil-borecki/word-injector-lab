@@ -8,7 +8,6 @@
 
   function init() {
     const form = $('#form').first();
-    overlay = $('.overlay').first();
     wordInput = $('input').first();
 
     $('.options-link').each((i, e) => {
