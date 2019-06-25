@@ -3,11 +3,11 @@
   makeRequest();
 
   function makeRequest() {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then(resp => resp.json())
-      .then(resp => {
-        console.log(resp);
-      });
+    chrome.runtime.sendMessage({
+      message: 'make-request',
+    }, (response) => {
+      console.log(response);
+    });
   }
 
 })();

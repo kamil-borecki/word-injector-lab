@@ -1,33 +1,18 @@
 (() => {
-
-  let currentTabId;
-
-  chrome.tabs.onActivated.addListener(({tabId}) => {
-    currentTabId = tabId;
-    reload();
-  });
-
   chrome.runtime.onMessage.addListener(
-    (request) => {
-      const {message, data} = request;
-
+    (request, sender, sendResponse) => {
+      const {message} = request;
       switch (message) {
 
-        case 'word-changed':
-          const {word} = data;
-          chrome.storage.sync.set({word}, () => {
-            reload();
-            chrome.runtime.sendMessage({
-              message: 'new-word',
-              data: {word},
+        case 'make-request':
+          fetch("https://jsonplaceholder.typicode.com/users")
+            .then(resp => resp.json())
+            .then(resp => {
+              sendResponse(resp);
             });
-          });
           break;
       }
+
+      return true;
     });
-
-  function reload() {
-    chrome.tabs.sendMessage(currentTabId, {message: 'reload'});
-  }
-
 })();
