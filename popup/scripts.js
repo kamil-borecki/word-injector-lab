@@ -15,6 +15,8 @@
       e.href = chrome.extension.getURL('options/index.html')
     });
 
+    getWordFromStorage();
+
 
     form.on('submit', e => {
       e.preventDefault();
@@ -23,6 +25,23 @@
         message: 'word-changed',
         data: {word},
       });
+    });
+
+    chrome.runtime.onMessage.addListener(
+      request => {
+        const {message} = request;
+
+        switch (message) {
+          case 'new-word':
+            getWordFromStorage();
+            break;
+        }
+      })
+  }
+
+  function getWordFromStorage() {
+    chrome.storage.sync.get(({word}) => {
+      wordInput.val(word || '');
     });
   }
 

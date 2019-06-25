@@ -11,6 +11,9 @@
     wordInput = $('#word-input').first();
     stateInput = $('#state-input').first();
 
+    getWordFromStorage();
+
+
     form.on('submit', e => {
       e.preventDefault();
       const word = wordInput.val();
@@ -20,5 +23,23 @@
       });
     });
 
+    chrome.runtime.onMessage.addListener(
+      request => {
+        const {message} = request;
+
+        switch (message) {
+          case 'new-word':
+            getWordFromStorage();
+            break;
+        }
+      })
   }
+
+  function getWordFromStorage() {
+    chrome.storage.sync.get(({word}) => {
+      wordInput.val(word || '');
+    });
+  }
+
+
 })();
