@@ -29,6 +29,7 @@
     "persistent": false
   },
   "web_accessible_resources": [
+    "lib/injector.js"
   ],
   "permissions": [
     "activeTab",
