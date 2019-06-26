@@ -13,13 +13,8 @@
     overlay = $('.overlay').first();
     wordInput = $('input').first();
 
-    $('.options-link').each((i, e) => {
-      e.href = chrome.extension.getURL('options/index.html')
-    });
-
     getWordFromStorage();
     getStateFromStorage();
-
 
     form.on('submit', e => {
       e.preventDefault();
